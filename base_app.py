@@ -122,7 +122,7 @@ elif page == "Insights":
     elif insights_option == "Distribution of User Ratings":
         st.image("images/distribution_of_user_ratings.png", use_column_width=True)
     elif insights_option == "Average Ratings per Genre":
-        st.image("images/average_ratings_per_genre.png", use_column_width=True)
+        st.image("images/Average_Ratings_per_Genre.png", use_column_width=True)
 
 elif page == "Anime Archive":
     st.title("Anime Archive")
