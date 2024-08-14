@@ -178,3 +178,4 @@ st.markdown("""
     <p>&copy; 2024 Anime Recommender App | Designed with ❤️ by Anime Fans</p>
 </div>
 """, unsafe_allow_html=True)
+
