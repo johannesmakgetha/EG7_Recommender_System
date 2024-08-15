@@ -115,14 +115,25 @@ elif page == "Insights":
     
     if insights_option == "Top 10 Most Rated Animes":
         st.image("images/top_10_most_rated_animes.png", use_column_width=True)
+        st.markdown("**Insights:** The anime Death Note stands out significantly in terms of total ratings, surpassing other titles by a wide margin. The bar plot showcases anime with the highest average ratings, underscoring their strong appeal and quality. Noteworthy mentions include Death Note, Sword Art Online, Shingeki no Kyojin, Code Geass: Hangyaku no Lelouch, Angel Beats!, Elfen Lied, Naruto, Fullmetal Alchemist: Brotherhood, Fullmetal Alchemist, and Code Geass: Hangyaku no Lelouch R2. These anime are highly recommended for their exceptional quality and widespread popularity.")
+    
     elif insights_option == "Top 10 Least Rated Animes":
         st.image("images/top_10_least_rated_animes.png", use_column_width=True)
+        st.markdown("**Insights:** The bar chart highlights the ten anime titles with the lowest average ratings, taking into account the number of ratings they've received. Among the titles with particularly low average ratings are Pupa, Boku no Pico, School Days, Glasslip, Diabolik Lovers, Mahou Sensou, Dragon Ball Z Movie 11: Super Senshi Gekiha!!, Amnesia, 11eyes, Dragon Ball GT, Green Green, and Final Fantasy: The Spirits Within. These anime are notable for receiving lower ratings despite having a substantial number of reviews.")
+    
     elif insights_option == "Top 10 Anime Genre Distribution":
         st.image("images/top_10_anime_genre_distribution.png", use_column_width=True)
+        st.markdown("**Insights:** From the analysis, we find that Comedy is the leading genre among all the genres. It is followed by Action, Adventure, Fantasy, Sci-fi, and Drama. The ranking continues as observed in the graph.")
+    
     elif insights_option == "Distribution of User Ratings":
         st.image("images/distribution_of_user_ratings.png", use_column_width=True)
+        st.markdown("**Insights:** The histogram reveals that anime ratings generally trend positively. The most common rating is 8, indicating a favorable user opinion. Ratings are skewed towards higher values, with frequent occurrences of ratings between 6 and 10, and fewer ratings below 4 or above 9.")
+    
     elif insights_option == "Average Ratings per Genre":
         st.image("images/Average_Ratings_per_Genre.png", use_column_width=True)
+        st.markdown("""**Insights:** Higher Rated Genres: Larger text signifies genres with higher average ratings, such as Mystery, Police, and Thriller.
+Lower Rated Genres: Smaller text reflects genres with lower average ratings, including Yaoi, Sports, and Unknown.
+Genre Diversity: The word cloud features a broad spectrum of genres, including Shounen, Seinen, Supernatural, Drama, Comedy, Magic, Historical, Action, and Sci-fi.""")
 
 elif page == "Anime Archive":
     st.title("Anime Archive")
